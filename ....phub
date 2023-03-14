@@ -181,7 +181,7 @@ Tab10Section:NewButton("عربية اللغة", "Arabic", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/Ar/main/ar", true))()
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "Script By ZR.047'-";
+    Title = "Script By ZR.047";
     Text = "Sub To ZR.P047";
     Icon = "rbxthumb://type=Asset&id=11007670961&w=150&h=150"})
 Duration = 5;
