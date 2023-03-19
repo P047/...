@@ -27,6 +27,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/mast
 end)
 Tab1Section:NewButton("Prsion life Admin Tool", "Join prsoin life", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/h8VgYCxn'))()
+end)
 Tab1Section:NewButton("Fly Gui V3", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/gNb0mYab"))();
 end)
