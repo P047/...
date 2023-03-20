@@ -132,7 +132,9 @@ local Tab4 = Window:NewTab("Credits")
 local Tab4Section = Tab4:NewSection("Script By ZR.047#8444")
 local Tab4Section = Tab4:NewSection("✯ Hussein  ✯ Versàce#6749")
 local Tab4Section = Tab4:NewSection("And ZR.Riezo#2512")
-
+Tab4Section:NewButton("العربيه اللغه", "What?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/Ar/main/ar"))()
+end)
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "Script By ZR.047";
     Text = "Sub To ZR.P047";
