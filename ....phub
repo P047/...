@@ -150,4 +150,4 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Note";
     Text = "Please do not change the rights";
     Icon = "rbxthumb://type=Asset&id=11007670961&w=150&h=150"})
-Duration = 5
+Duration = 5;
