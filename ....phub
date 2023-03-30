@@ -129,15 +129,12 @@ Tab3Section:NewButton("Arceus x", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/k4K77Jud"))()
 end)
 local Tab4 = Window:NewTab("Credits")
-local Tab4Section = Tab4:NewSection("Script By ZR.047#8444")
+local Tab4Section = Tab4:NewSection("Script By 047#8444")
 local Tab4Section = Tab4:NewSection("✯ Hussein  ✯ Versàce#6749")
-local Tab4Section = Tab4:NewSection("And ZR.Riezo#2512")
-Tab4Section:NewButton("العربيه اللغه", "What?", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/Ar/main/ar"))()
-end)
+
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "Script By ZR.047";
-    Text = "Sub To ZR.P047";
+    Title = "Script By P047";
+    Text = "Sub To P047";
     Icon = "rbxthumb://type=Asset&id=11007670961&w=150&h=150"})
 Duration = 5;
 
