@@ -1,6 +1,5 @@
-
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("Phub", "Ocean")
+local Window = Library.CreateLib("Phub", "Midnight")
 local Tab1 = Window:NewTab("Games Scripts")
 local Tab1Section = Tab1:NewSection("Prsion life")
 Tab1Section:NewButton("Prsion ware", "Join prsoin life", function()
@@ -105,7 +104,7 @@ Tab1Section:NewButton("Meepcity Kart", "Join Meepcity", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bannable666/Scripts/main/Meep.txt", true))()
 end)
 
-Tab1Section:NewButton("Pet Simulator x", "Join Meepcity", function()
+local Tab1Section = Tab1:NewSection("Pet Simulation X")
 Tab1Section:NewButton("Trade Scam", "Join Pet Simulation x", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptDupedd/tradescam/main/ScriptTradeScamMinee"))()
 end)
@@ -133,7 +132,7 @@ Tab2Section:NewButton("Admin Cmds", "What?", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/RqaZUrBZ"))()
 end)
 
-Tab2Section:NewButton("More scripts soon", "What?", function()
+local Tab2Section = Tab2:NewSection("More scripts soon")
 
 local Tab3 = Window:NewTab("Player")
 local Tab3Section = Tab3:NewSection("Ability")
@@ -155,7 +154,6 @@ Tab3Section:NewToggle("Fov", "Changes The Fov", function(state)
 end)
 
 local Tab4 = Window:NewTab("Universal")
-
 local Tab4Section = Tab4:NewSection("Universal")
 
 Tab4Section:NewButton("Vfly", "What?", function()
@@ -202,10 +200,9 @@ local Tab5 = Window:NewTab("About")
 local Tab5Section = Tab5:NewSection("Script By ZR.047#8444")
 local Tab5Section = Tab5:NewSection("help from")
 local Tab5Section = Tab5:NewSection("Hussein#9802")
-Tab4Section:NewButton("عربية اللغة", "What?", function()
+Tab5Section:NewButton("عربية اللغة", "What?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/P047/Ar/main/ar"))()
 end)
-
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "Script By P047";
     Text = "Sub To P047";
